@@ -1,0 +1,28 @@
+GLPK Integer Optimizer 5.0
+4 rows, 3 columns, 6 non-zeros
+3 integer variables, none of which are binary
+Preprocessing...
+1 row, 3 columns, 3 non-zeros
+3 integer variables, none of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  5.000e+00  ratio =  5.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 1
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+1 row, 3 columns, 3 non-zeros
+      0: obj =   2.200000000e+00 inf =   2.000e-01 (1)
+      1: obj =   2.500000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     1: mip =     not found yet >=              -inf        (1; 0)
++     1: >>>>>   3.000000000e+00 >=   3.000000000e+00   0.0% (2; 0)
++     1: mip =   3.000000000e+00 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+0
+[ 1.00e+00]
+[ 0.00e+00]
+[ 2.00e+00]
+
